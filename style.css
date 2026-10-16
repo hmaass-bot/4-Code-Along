@@ -1,0 +1,21 @@
+/* CSS written by Hannah Maass */
+/* GLOBAL STYLES (MOBILE FIRST) */
+
+body {
+    display:grid;
+    grid-template-columns: 1fr;
+    background-color:aquamarine;
+}
+@media screen and (min-width:600px){
+    body{
+    grid-template-columns:1fr 1fr;
+    background-color: rgb(131, 255, 127); 
+
+    }
+}
+@media screen and (min-width:800px){
+    body{
+    grid-template-columns:1fr 1fr 1fr;
+    background-color: plum;
+    }
+}
